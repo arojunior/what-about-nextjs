@@ -1,8 +1,10 @@
-import Layout from '../components/Layout'
+import Layout from '../layouts/Default'
 
 const Index = () =>
   <Layout>
-    <div className="main">Hello World, I'm Next.js</div>
+    <div className="main">
+      <h1>Hello World!</h1>
+    </div>
   </Layout>
 
 export default Index
