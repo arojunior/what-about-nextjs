@@ -17,6 +17,9 @@
     "url": "https://github.com/arojunior/what-about-nextjs/issues"
   },
   "homepage": "https://github.com/arojunior/what-about-nextjs#readme",
+  "scripts": {
+      "dev": "next"
+  },  
   "dependencies": {
     "next": "^3.0.3",
     "react": "^15.6.1",
