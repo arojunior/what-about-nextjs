@@ -1,0 +1,16 @@
+{
+  "slides": [
+    {
+      "page": 0,
+      "file": "/"
+    },
+    {
+      "page": 1,
+      "file": "/presentation/1-hello-world"
+    },
+    {
+      "page": 2,
+      "file": "/presentation/2-features"
+    }
+  ]
+}

@@ -2,9 +2,7 @@ import Layout from '../layouts/Default'
 
 const Index = () =>
   <Layout>
-    <div className="main">
-      <h1>Hello World!</h1>
-    </div>
+    <h1>Hi there! I'm Next.Js</h1>
   </Layout>
 
 export default Index
