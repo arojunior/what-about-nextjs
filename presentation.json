@@ -6,11 +6,15 @@
     },
     {
       "page": 1,
-      "file": "/presentation/1-hello-world"
+      "file": "/presentation/1-setup"
     },
     {
       "page": 2,
-      "file": "/presentation/2-features"
+      "file": "/presentation/2-hello-world"
+    },
+    {
+      "page": 3,
+      "file": "/presentation/3-features"
     }
   ]
 }
