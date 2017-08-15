@@ -1,57 +1,66 @@
+import dynamic from 'next/dynamic'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Layout = ({children}) =>
+const KeyboardListener = dynamic(import('../components/KeyboardListener'), {
+  ssr: false
+})
+
+const Layout = ({children, title = null}) =>
   <div>
-    {/* meta tags */}
     <Header />
-    <div className="container">
-      {children}
-    </div>
-    <Footer />
+    <main>
+      <section className="content">
+        {title
+          ? <div style={{textAlign: 'center'}}>
+              <h1>
+                {title}
+              </h1>
+              <br />
+            </div>
+          : null}
+        {children}
+        <KeyboardListener />
+      </section>
+      <Footer />
+    </main>
+
     {/* global styles */}
     <style jsx global>{`
-      * {
-        margin: 0;
-      }
+      html,
       body {
         font-family: Menlo, Monaco, Lucida Console, serif;
         font-size: 18px;
         color: #444;
         background: #eeeeee;
+        height: 100%;
       }
+
       a {
         color: #22bad9;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
-      footer {
-        font-size: 14px;
-        width: 100%;
-        bottom: 0;
+
+      .content {
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
-      .pull-left {
-        margin: 10px;
-        float: left;
-      }
-      .pull-right {
-        margin: 10px;
-        float: right;
-      }
-      .container {
-        flex: none;
-        text-align: center;
-      }
-      .main {
+
+      .about,
+      .author {
         position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: -1;
+        bottom: 0.5em;
+        font-size: 13px;
+      }
+
+      .about {
+        left: 0.5em;
+      }
+
+      .author {
+        right: 0.5em;
       }
     `}</style>
   </div>

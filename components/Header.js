@@ -8,4 +8,4 @@ const Header = () =>
     </Head>
   </div>
 
-export default Header  
+export default Header
