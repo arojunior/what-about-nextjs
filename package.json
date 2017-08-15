@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Let's talk about Next.js",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arojunior/what-about-nextjs.git"
   },
-  "keywords": [],
+  "keywords": [
+    "nextjs",
+    "react"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/arojunior/what-about-nextjs#readme",
   "scripts": {
-      "dev": "next"
-  },  
+    "dev": "next",
+    "build": "next export"
+  },
   "dependencies": {
     "next": "^3.0.3",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-highlight": "^0.10.0",
+    "recompose": "^0.24.0"
   }
 }
