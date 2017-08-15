@@ -1,10 +1,11 @@
 # What about Next.js?
 
-Let's talk about Next.js
+Let's find out.
 
+- Clone the repository
+- Run
 ```sh
-# clone the repository and then
 npm install
 npm run dev
 ```
-Go to: http://localhost:3000
+- Go to: http://localhost:3000
