@@ -1,11 +1,13 @@
 import Router from 'next/router'
+import React from 'react'
 import {compose, withStateHandlers, withHandlers, lifecycle} from 'recompose'
 import {route, getFileByPage, getPageByFile} from '../libs/Pages'
+import KEYBOARD from '../constants/keyboard'
 
-const KeyboardListener = ({page, keyHandler}) =>
-  <div>
+const KeyboardListener = ({ keyHandler}) =>
+  <>
     {document.addEventListener('keydown', keyHandler)}
-  </div>
+  </>
 
 export default compose(
   withStateHandlers(
@@ -22,13 +24,11 @@ export default compose(
   ),
   withHandlers({
     keyHandler: ({pageNext, pagePrev}) => event => {
-      if (event.keyCode === 39) {
-        // right
+      if (event.keyCode === KEYBOARD.RIGHT || event.keyCode === KEYBOARD.TAB) {
         return pageNext()
       }
 
-      if (event.keyCode === 37) {
-        // Left
+      if (event.keyCode === KEYBOARD.LEFT || event.keyCode === KEYBOARD.ENTER) {
         return pagePrev()
       }
     }
