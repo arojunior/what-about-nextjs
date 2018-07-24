@@ -19,7 +19,7 @@ export default compose(
       }),
       pagePrev: ({ page }) => () =>
         page > 0 ? { page: page - 1 } : { page: page },
-      setPage: props => current => ({ page: current })
+      setPage: () => current => ({ page: current })
     }
   ),
   withHandlers({
@@ -35,7 +35,7 @@ export default compose(
   }),
   lifecycle({
     componentDidUpdate(prevProps) {
-      const page = this.props.page;
+      const { page } = this.props;
       if (prevProps.page !== page) {
         route(getFileByPage(page));
       }

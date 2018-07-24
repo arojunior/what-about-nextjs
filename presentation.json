@@ -6,15 +6,51 @@
     },
     {
       "page": 1,
-      "file": "/presentation/1-setup"
+      "file": "/presentation/speaker"
     },
     {
       "page": 2,
-      "file": "/presentation/2-hello-world"
+      "file": "/presentation/setup"
     },
     {
       "page": 3,
-      "file": "/presentation/3-features"
+      "file": "/presentation/setup.2"
+    },
+    {
+      "page": 4,
+      "file": "/presentation/run"
+    },
+    {
+      "page": 5,
+      "file": "/presentation/hello-world"
+    },
+    {
+      "page": 6,
+      "file": "/presentation/features-1"
+    },
+    {
+      "page": 7,
+      "file": "/presentation/features-2"
+    },
+    {
+      "page": 8,
+      "file": "/presentation/features-3"
+    },
+    {
+      "page": 9,
+      "file": "/presentation/features-4"
+    },
+    {
+      "page": 10,
+      "file": "/presentation/features-5"
+    },
+    {
+      "page": 11,
+      "file": "/presentation/features-6"
+    },
+    {
+      "page": 12,
+      "file": "/presentation/features-7"
     }
   ]
 }

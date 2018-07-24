@@ -17,7 +17,7 @@ const Layout = ({ children, title = null }) => (
             <br />
           </div>
         ) : null}
-        {children}
+        <div className="children">{children}</div>
         <KeyboardListener />
       </section>
       <Footer />
@@ -39,11 +39,22 @@ const Layout = ({ children, title = null }) => (
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
 
+      small {
+        font-style: italic;
+      }
+
       .content {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+
+      .children {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
       }
 
       .about,

@@ -1,7 +1,7 @@
 const Footer = () => (
   <div>
     <a className="about" href="https://zeit.co/blog/next3">
-      Next.js
+      What about Next.js?
     </a>
     <a className="author" href="https://github.com/arojunior">
       @arojunior
