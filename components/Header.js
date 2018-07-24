@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-const Header = () =>
+const Header = () => (
   <div>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,5 +11,6 @@ const Header = () =>
       <title>What about Next.js?</title>
     </Head>
   </div>
+);
 
-export default Header
+export default Header;

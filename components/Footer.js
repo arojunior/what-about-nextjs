@@ -1,4 +1,4 @@
-const Footer = () =>
+const Footer = () => (
   <div>
     <a className="about" href="https://zeit.co/blog/next3">
       Next.js
@@ -7,5 +7,6 @@ const Footer = () =>
       @arojunior
     </a>
   </div>
+);
 
-export default Footer
+export default Footer;

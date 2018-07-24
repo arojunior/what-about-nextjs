@@ -3,4 +3,4 @@ export default {
   RIGHT: 39,
   TAB: 9,
   ENTER: 13
-}
+};

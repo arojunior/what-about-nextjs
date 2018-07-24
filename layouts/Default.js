@@ -1,24 +1,22 @@
-import dynamic from 'next/dynamic'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import dynamic from 'next/dynamic';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const KeyboardListener = dynamic(import('../components/KeyboardListener'), {
   ssr: false
-})
+});
 
-const Layout = ({children, title = null}) =>
+const Layout = ({ children, title = null }) => (
   <div>
     <Header />
     <main>
       <section className="content">
-        {title
-          ? <div style={{textAlign: 'center'}}>
-              <h1>
-                {title}
-              </h1>
-              <br />
-            </div>
-          : null}
+        {title ? (
+          <div style={{ textAlign: 'center' }}>
+            <h1>{title}</h1>
+            <br />
+          </div>
+        ) : null}
         {children}
         <KeyboardListener />
       </section>
@@ -64,5 +62,6 @@ const Layout = ({children, title = null}) =>
       }
     `}</style>
   </div>
+);
 
-export default Layout
+export default Layout;

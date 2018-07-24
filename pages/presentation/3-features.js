@@ -1,6 +1,6 @@
-import Layout from '../../layouts/Default'
+import Layout from '../../layouts/Default';
 
-export default () =>
+export default () => (
   <Layout title="Features">
     <ul>
       <li>Server-rendered by default</li>
@@ -14,3 +14,4 @@ export default () =>
       <li>Customizable with your own Babel and Webpack configurations </li>
     </ul>
   </Layout>
+);

@@ -1,7 +1,7 @@
-import Layout from '../../layouts/Default'
-import Highlight from 'react-highlight'
+import Layout from '../../layouts/Default';
+import Highlight from 'react-highlight';
 
-const Setup = () =>
+const Setup = () => (
   <Layout title="Setup">
     Install
     <Highlight className="bash">
@@ -30,5 +30,6 @@ npm run dev
       `}
     </Highlight>
   </Layout>
+);
 
-export default Setup
+export default Setup;
