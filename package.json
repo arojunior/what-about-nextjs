@@ -11,8 +11,8 @@
     "nextjs",
     "react"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Junior Oliveira",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/arojunior/what-about-nextjs/issues"
   },
@@ -29,5 +29,11 @@
     "react-dom": "^16.4.1",
     "react-highlight": "^0.12.0",
     "recompose": "^0.27.1"
-  }
+  },
+  "now": {
+    "engines": {
+      "node": "9.x.x"
+    },
+    "alias": "what-about-nextjs"
+  }  
 }
