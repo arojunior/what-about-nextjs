@@ -1,4 +1,4 @@
-const Footer = () => (
+export default () => (
   <div>
     <a className="about" href="https://zeit.co/blog/next3">
       What about Next.js?
@@ -8,5 +8,3 @@ const Footer = () => (
     </a>
   </div>
 );
-
-export default Footer;

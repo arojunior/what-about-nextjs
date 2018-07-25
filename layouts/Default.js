@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
       html,
       body {
         font-family: Menlo, Monaco, Lucida Console, serif;
-        font-size: 18px;
+        font-size: 22px;
         color: #444;
         background: #eeeeee;
         height: 100%;
@@ -31,6 +31,10 @@ const Layout = ({ children }) => (
       a {
         color: #22bad9;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      img {
+        max-width: 100%;
       }
 
       small {

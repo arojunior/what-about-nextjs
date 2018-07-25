@@ -1,9 +1,9 @@
 export default () => (
   <>
     <h1>Features</h1>
-    4 - Able to implement with Express or any other Node.js HTTP server
+    4 - Built-in CSS support (styled-jsx)
     <p>
-      <img src="/static/img/features-4.png" style={{ maxWidth: `100%` }} />
+      <small>But you can also use styled-components, glamor, etc...</small>
     </p>
   </>
 );

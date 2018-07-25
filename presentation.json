@@ -46,19 +46,47 @@
     },
     {
       "page": 11,
-      "file": "/presentation/features-5"
+      "file": "/presentation/automatic-routing"
     },
     {
       "page": 12,
-      "file": "/presentation/features-6"
+      "file": "/presentation/static-files"
+    },
+    {
+      "page": 13,
+      "file": "/presentation/fetching-data"
+    },
+    {
+      "page": 14,
+      "file": "/presentation/dynamic-import"
+    },
+    {
+      "page": 15,
+      "file": "/presentation/dynamic-import-loading"
+    },
+    {
+      "page": 16,
+      "file": "/presentation/custom-configuration"
+    },
+    {
+      "page": 17,
+      "file": "/presentation/custom-server"
+    },
+    {
+      "page": 18,
+      "file": "/presentation/deploy"
     },
     {
       "page": 19,
-      "file": "/presentation/references"
+      "file": "/presentation/code"
     },
     {
       "page": 20,
       "file": "/presentation/questions"
+    },
+    {
+      "page": 21,
+      "file": "/presentation/references"
     }
   ]
 }
