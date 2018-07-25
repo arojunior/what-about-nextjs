@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next build && next start"
+    "start": "next start"
   },
   "dependencies": {
     "axios": "^0.18.0",
