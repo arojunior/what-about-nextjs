@@ -1,8 +1,8 @@
 import axios from 'axios';
-import Layout from '../../layouts/Default';
 
 const Speaker = ({ name, avatar_url, url, html_url }) => (
-  <Layout title="Speaker">
+  <>
+    <h1>Speaker</h1>
     <img src={avatar_url} style={{ borderRadius: `50%`, width: `30%` }} />
     <br />
     {name}
@@ -10,14 +10,12 @@ const Speaker = ({ name, avatar_url, url, html_url }) => (
     <a href={url}>{html_url}</a>
     <br />
     Fullstack Developer at Segware
-  </Layout>
+  </>
 );
 
 Speaker.getInitialProps = async () => {
-  const { data: profile } = await axios.get(
-    'https://api.github.com/users/arojunior'
-  );
-  return profile;
+  const { data } = await axios.get('https://api.github.com/users/arojunior');
+  return data;
 };
 
 export default Speaker;

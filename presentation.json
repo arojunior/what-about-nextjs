@@ -30,27 +30,35 @@
     },
     {
       "page": 7,
-      "file": "/presentation/features-2"
+      "file": "/presentation/features-1.1"
     },
     {
       "page": 8,
-      "file": "/presentation/features-3"
+      "file": "/presentation/features-2"
     },
     {
       "page": 9,
-      "file": "/presentation/features-4"
+      "file": "/presentation/features-3"
     },
     {
       "page": 10,
-      "file": "/presentation/features-5"
+      "file": "/presentation/features-4"
     },
     {
       "page": 11,
-      "file": "/presentation/features-6"
+      "file": "/presentation/features-5"
     },
     {
       "page": 12,
-      "file": "/presentation/features-7"
+      "file": "/presentation/features-6"
+    },
+    {
+      "page": 19,
+      "file": "/presentation/references"
+    },
+    {
+      "page": 20,
+      "file": "/presentation/questions"
     }
   ]
 }

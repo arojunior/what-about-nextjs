@@ -1,7 +1,9 @@
-import Layout from '../../layouts/Default';
-
 export default () => (
-  <Layout title="Features">
-    3 - Webpack-based dev environment which supports Hot Module Replacement (HMR)
-  </Layout>
+  <>
+    <h1>Features</h1>
+    4 - Able to implement with Express or any other Node.js HTTP server
+    <p>
+      <img src="/static/img/features-4.png" style={{ maxWidth: `100%` }} />
+    </p>
+  </>
 );

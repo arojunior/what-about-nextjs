@@ -6,17 +6,11 @@ const KeyboardListener = dynamic(import('../components/KeyboardListener'), {
   ssr: false
 });
 
-const Layout = ({ children, title = null }) => (
+const Layout = ({ children }) => (
   <div>
     <Header />
     <main>
       <section className="content">
-        {title ? (
-          <div style={{ textAlign: 'center' }}>
-            <h1>{title}</h1>
-            <br />
-          </div>
-        ) : null}
         <div className="children">{children}</div>
         <KeyboardListener />
       </section>

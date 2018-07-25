@@ -1,9 +1,6 @@
-import Layout from '../../layouts/Default';
-
-const Setup = () => (
-  <Layout title="Setup / Install">
+export default () => (
+  <>
+    <h1>Setup / Install</h1>
     <img src="/static/img/setup-1.png" />
-  </Layout>
+  </>
 );
-
-export default Setup;

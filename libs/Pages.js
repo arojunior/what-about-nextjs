@@ -2,9 +2,9 @@ import Router from 'next/router';
 import { slides } from '../presentation';
 
 export const getFileByPage = page =>
-  slides.filter(slides => slides.page === page)[0].file;
+  slides.find(slides => slides.page === page).file;
 
 export const getPageByFile = file =>
-  slides.filter(slides => slides.file === file)[0].page;
+  slides.find(slides => slides.file === file).page;
 
 export const route = fileName => Router.push(fileName);

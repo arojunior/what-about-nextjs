@@ -1,14 +1,12 @@
-import Layout from '../../layouts/Default';
-
 export default () => (
-  <Layout title="Features">
-    (SSR) Server side rendering by default
+  <>
+    <h1>Features</h1>
+    2 - Automatic code splitting for faster page loads
     <p>
-      {' '}
       <small>
-        ...But also... Better SEO, inital page loading faster and great for
-        static sites
+        Every import you declare gets bundled and served with each page. That
+        means pages never load unnecessary code!
       </small>
     </p>
-  </Layout>
+  </>
 );

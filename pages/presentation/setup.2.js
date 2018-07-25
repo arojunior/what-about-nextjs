@@ -1,9 +1,6 @@
-import Layout from '../../layouts/Default';
-
-const Setup = () => (
-  <Layout title="Setup / Configure package.json">
+export default () => (
+  <>
+    <h1>Setup / Configure package.json</h1>
     <img src="/static/img/setup-2.png" />
-  </Layout>
+  </>
 );
-
-export default Setup;
