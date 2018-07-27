@@ -1,7 +1,7 @@
 import Router from 'next/router';
 import React from 'react';
 import { compose, withStateHandlers, withHandlers, lifecycle } from 'recompose';
-import { route, getFileByPage, getPageByFile } from '../libs/Pages';
+import { route, getFileByPage, getPageByFile } from '../libs/pages';
 import KEYBOARD from '../constants/keyboard';
 
 const KeyboardListener = ({ keyHandler }) => (

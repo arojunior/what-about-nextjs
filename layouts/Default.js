@@ -33,6 +33,10 @@ const Layout = ({ children }) => (
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
 
+      li {
+        margin: 10px 0;
+      }
+
       img {
         max-width: 100%;
       }
@@ -53,6 +57,8 @@ const Layout = ({ children }) => (
         flex: 1;
         flex-direction: column;
         align-items: center;
+        text-align: justify;
+        text-justify: inter-word;
       }
 
       .about,

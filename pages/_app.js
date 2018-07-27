@@ -1,6 +1,6 @@
 import App, { Container } from 'next/app';
 import React from 'react';
-import Layout from '../layouts/Default';
+import Layout from '../layouts/default';
 
 export default class WhatAboutNextJs extends App {
   render() {

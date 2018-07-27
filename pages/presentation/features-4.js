@@ -5,5 +5,8 @@ export default () => (
     <p>
       <small>But you can also use styled-components, glamor, etc...</small>
     </p>
+    <p>
+      <img src="/static/img/styled-jsx.png" />
+    </p>
   </>
 );

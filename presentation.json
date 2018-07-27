@@ -10,82 +10,98 @@
     },
     {
       "page": 2,
-      "file": "/presentation/setup"
+      "file": "/presentation/what-is-it"
     },
     {
       "page": 3,
-      "file": "/presentation/setup.2"
+      "file": "/presentation/who-is-behind-it"
     },
     {
       "page": 4,
-      "file": "/presentation/run"
+      "file": "/presentation/setup"
     },
     {
       "page": 5,
-      "file": "/presentation/hello-world"
+      "file": "/presentation/setup.2"
     },
     {
       "page": 6,
-      "file": "/presentation/features-1"
+      "file": "/presentation/run"
     },
     {
       "page": 7,
-      "file": "/presentation/features-1.1"
+      "file": "/presentation/hello-world"
     },
     {
       "page": 8,
-      "file": "/presentation/features-2"
+      "file": "/presentation/features-1"
     },
     {
       "page": 9,
-      "file": "/presentation/features-3"
+      "file": "/presentation/features-1.1"
     },
     {
       "page": 10,
-      "file": "/presentation/features-4"
+      "file": "/presentation/features-2"
     },
     {
       "page": 11,
-      "file": "/presentation/automatic-routing"
+      "file": "/presentation/features-3"
     },
     {
       "page": 12,
-      "file": "/presentation/static-files"
+      "file": "/presentation/features-4"
     },
     {
       "page": 13,
-      "file": "/presentation/fetching-data"
+      "file": "/presentation/automatic-routing"
     },
     {
       "page": 14,
-      "file": "/presentation/dynamic-import"
+      "file": "/presentation/error-handler"
     },
     {
       "page": 15,
-      "file": "/presentation/dynamic-import-loading"
+      "file": "/presentation/static-files"
     },
     {
       "page": 16,
-      "file": "/presentation/custom-configuration"
+      "file": "/presentation/fetching-data"
     },
     {
       "page": 17,
-      "file": "/presentation/custom-server"
+      "file": "/presentation/dynamic-import"
     },
     {
       "page": 18,
-      "file": "/presentation/deploy"
+      "file": "/presentation/dynamic-import-loading"
     },
     {
       "page": 19,
-      "file": "/presentation/code"
+      "file": "/presentation/custom-configuration"
     },
     {
       "page": 20,
-      "file": "/presentation/questions"
+      "file": "/presentation/custom-server"
     },
     {
       "page": 21,
+      "file": "/presentation/deploy"
+    },
+    {
+      "page": 22,
+      "file": "/presentation/code"
+    },
+    {
+      "page": 23,
+      "file": "/presentation/thanks"
+    },
+    {
+      "page": 24,
+      "file": "/presentation/questions"
+    },
+    {
+      "page": 25,
       "file": "/presentation/references"
     }
   ]
